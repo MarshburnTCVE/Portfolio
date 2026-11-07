@@ -9,19 +9,17 @@ export type Project = {
   repo?: string;
 };
 
-// Add one entry per project as you build your credentials.
-// Keep summaries to 1–2 sentences — specifics ("cut load time 40%")
-// read stronger than general descriptions ("built a fast app").
+
 export const projects: Project[] = [
   {
     slug: "project-one",
     title: "eTukod: Web Based Building Permit Management and Verification System through Blockchain Technology",
     year: "2025-2026",
     summary:
-      "For Malabalay City, a web application that allows users to apply, manage, verify their building permit. Improving Efficiency, Security, and Enhanced Standard Operating Procedures.",
+      "This is an online platform that allows easier application. Efficient processing. A more secure and transparent system for applying building permits enabling an increase in public trust.",
     stack: ["TypeScript", "React", "Clerk", "SMTP", "Supabase", "PostgreSQL", "HardHat", "Solidity", "Tailwind CSS", "Git"],
     role: "Backend developer, Project Lead, Team of 4",
-    link: "etukod.replit.com",
+    link: "https://etukod.replit.com",
     repo: "https://github.com/MarshburnTCVE/eTukod",
   },
   {

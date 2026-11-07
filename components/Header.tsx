@@ -1,4 +1,5 @@
 import ProfilePhoto from "./ProfilePhoto";
+import ResumePreview from "./ResumePreview";
 
 const links = [
   { href: "#work", label: "Work" },
@@ -26,12 +27,7 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a
-            href="/resume.pdf"
-            className="rounded-full border border-ink px-4 py-1.5 text-sm font-medium transition-colors hover:bg-ink hover:text-paper"
-          >
-            Resume
-          </a>
+          <ResumePreview />
         </nav>
       </div>
     </header>
