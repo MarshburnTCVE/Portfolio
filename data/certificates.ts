@@ -3,9 +3,17 @@ export type Certificate = {
   issuer: string;
   year: string;
   url: string;
+  pdf?: string;
 };
 
 export const certificates: Certificate[] = [
+  {
+    title: "TOPCIT Level 4 Competency Certificate",
+    issuer: "TOPCIT",
+    year: "2026",
+    url: "https://topcit.or.kr",
+    pdf: "/topcit.pdf",
+  },
   {
     title: "CCNA: Switching, Routing, and Wireless Essentials",
     issuer: "netacad.com, Instructor: Raul Lecaros",

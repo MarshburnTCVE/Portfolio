@@ -7,14 +7,14 @@ export default function Hero() {
       </div>
 
       <h1 className="mt-6 max-w-3xl font-display text-4xl font-medium leading-[1.1] tracking-tight md:text-6xl">
-        I build based on the deliverables. Solutions that are fast,
+        I deliver results. Solutions that are fast,
         accessible, and easy to maintain.
       </h1>
 
       <p className="mt-6 max-w-measure text-lg text-muted">
         4th-year student, Bachelor of Information Technology, College of Technologies at 
-        Bukidnon State University. I am a Full-stack web and mobile app developer. I have very strong communication
-        skills and I have a very strong passion for learning new techniques to improve my skills.
+        Bukidnon State University. I am a Full-stack web and mobile app developer. I have excellent communication
+        skills and a very strong passion for learning new techniques to improve my skills.
       </p>
 
       <div className="mt-9 flex flex-wrap items-center gap-4">
